@@ -15,9 +15,9 @@ pipeline {
       }
     }
 
-    stage('input') {
+    stage('asdf') {
       steps {
-        input(message: 'Hello', id: 'ID', ok: 'OK')
+        input(message: 'asdf', id: 'asdf', ok: 'asdf')
       }
     }
 

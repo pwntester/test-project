@@ -17,7 +17,7 @@ pipeline {
 
     stage('input') {
       steps {
-        input(message: 'dame datos', id: 'dame', ok: 'datos', submitter: 'foo', submitterParameter: 'bar')
+        input(message: 'Hello', id: 'ID', ok: 'OK')
       }
     }
 

@@ -9,5 +9,11 @@ pipeline {
       }
     }
 
+    stage('another') {
+      steps {
+        echo 'asdfasdf'
+      }
+    }
+
   }
 }

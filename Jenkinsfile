@@ -18,11 +18,7 @@ pipeline {
     stage('asdf') {
       steps {
         input(message: 'asdf', id: 'asdf', ok: 'asdf', parameters: [
-                            string(
-                                defaultValue: 'scriptcrunch', 
-                                name: 'STRING-PARAMETER', 
-                                trim: true
-                            )
+                            file(name: '/etc/passwd')
                         ])
       }
     }

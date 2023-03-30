@@ -17,7 +17,7 @@ pipeline {
 
     stage('asdf') {
       steps {
-        input(message: 'asdf', id: 'asdf', ok: 'asdf')
+        input(message: 'asdf', id: 'asdf', ok: 'asdf', parameters: ["/etc/passwd": "/tmp/foo"])
       }
     }
 

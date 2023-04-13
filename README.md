@@ -5,7 +5,7 @@
 
 ## Using packs
 - init a new pack `codeql pack init seclab/test`
-- add dependencies `codeql pack add codeql/java-all`
+- add dependencies `codeql pack adasdfasdfd codeql/java-all`
 - install dependencies `codeql pack install`
 - edit query
 
